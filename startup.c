@@ -13,5 +13,5 @@ __asm__ volatile(".L1: B .L1\n");				/* never return */
 
 void main(void)
 {
+	printf("Hello World.");
 }
-
