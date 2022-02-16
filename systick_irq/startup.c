@@ -83,7 +83,7 @@ void main(void){
 	delay(DELAY_COUNT);
 	*GPIO_ODR_LOW = 0xFF;
 	while(1){
-		if(systick_flag) break;
+		if(systick_flag) break; // exception called through systick delay
 	}
 	
 	*GPIO_ODR_LOW=0;
