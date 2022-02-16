@@ -5,8 +5,8 @@
 ## Debug
 ProjectName            :=systick_irq
 ConfigurationName      :=Debug
-WorkspacePath          :=C:/Users/rozkh/Desktop/MOP/laboration4
-ProjectPath            :=C:/Users/rozkh/Desktop/MOP/laboration4/systick_irq
+WorkspacePath          :=C:/Users/rozkh/Desktop/MOP/labb4-
+ProjectPath            :=C:/Users/rozkh/Desktop/MOP/labb4-/systick_irq
 IntermediateDirectory  :=$(ConfigurationName)
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
@@ -107,7 +107,7 @@ PreBuild:
 ##
 $(IntermediateDirectory)/startup.c$(ObjectSuffix): startup.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/startup.c$(ObjectSuffix) -MF$(IntermediateDirectory)/startup.c$(DependSuffix) -MM startup.c
-	$(CC) $(SourceSwitch) "C:/Users/rozkh/Desktop/MOP/laboration4/systick_irq/startup.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/startup.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "C:/Users/rozkh/Desktop/MOP/labb4-/systick_irq/startup.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/startup.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/startup.c$(PreprocessSuffix): startup.c
 	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/startup.c$(PreprocessSuffix) startup.c
 

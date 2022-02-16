@@ -5,8 +5,8 @@
 ## Debug
 ProjectName            :=laboration4
 ConfigurationName      :=Debug
-WorkspacePath          :=C:/Users/rozkh/Desktop/MOP/laboration4
-ProjectPath            :=C:/Users/rozkh/Desktop/MOP/laboration4
+WorkspacePath          :=C:/Users/rozkh/Desktop/MOP/labb4-
+ProjectPath            :=C:/Users/rozkh/Desktop/MOP/labb4-
 IntermediateDirectory  :=$(ConfigurationName)
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
@@ -107,7 +107,7 @@ PreBuild:
 ##
 $(IntermediateDirectory)/startup.c$(ObjectSuffix): startup.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/startup.c$(ObjectSuffix) -MF$(IntermediateDirectory)/startup.c$(DependSuffix) -MM startup.c
-	$(CC) $(SourceSwitch) "C:/Users/rozkh/Desktop/MOP/laboration4/startup.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/startup.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "C:/Users/rozkh/Desktop/MOP/labb4-/startup.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/startup.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/startup.c$(PreprocessSuffix): startup.c
 	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/startup.c$(PreprocessSuffix) startup.c
 
