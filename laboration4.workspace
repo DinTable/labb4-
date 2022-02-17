@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="laboration4" Database="" Version="10000">
-  <Project Name="laboration4" Path="laboration4.project" Active="No"/>
-  <Project Name="systick_irq" Path="systick_irq/systick_irq.project" Active="Yes"/>
+  <Project Name="systick_irq" Path="systick_irq/systick_irq.project" Active="No"/>
+  <Project Name="flipflop_irq" Path="flipflop_irq/flipflop_irq.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
-      <Project Name="laboration4" ConfigName="Debug"/>
       <Project Name="systick_irq" ConfigName="Debug"/>
+      <Project Name="flipflop_irq" ConfigName="Debug"/>
+      <Project Name="flipflop_irq" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
-      <Project Name="laboration4" ConfigName="Release"/>
       <Project Name="systick_irq" ConfigName="Release"/>
+      <Project Name="flipflop_irq" ConfigName="Release"/>
+      <Project Name="flipflop_irq" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

@@ -2,15 +2,7 @@
 <Session Name="C:\Users\rozkh\Desktop\MOP\labb4-\laboration4.workspace">
   <int Value="0" Name="m_selectedTab"/>
   <wxString Value="C:\Users\rozkh\Desktop\MOP\labb4-\laboration4.workspace" Name="m_workspaceName"/>
-  <TabInfoArray Name="TabInfoArray">
-    <TabInfo>
-      <wxString Value="C:\Users\rozkh\Desktop\MOP\labb4-\systick_irq\startup.c" Name="FileName"/>
-      <int Value="56" Name="FirstVisibleLine"/>
-      <int Value="80" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-  </TabInfoArray>
+  <TabInfoArray Name="TabInfoArray"/>
   <SerializedObject Name="m_breakpoints">
     <long Value="0" Name="Count"/>
   </SerializedObject>
