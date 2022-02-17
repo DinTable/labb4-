@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="laboration4" Database="" Version="10000">
   <Project Name="systick_irq" Path="systick_irq/systick_irq.project" Active="No"/>
-  <Project Name="flipflop_irq" Path="flipflop_irq/flipflop_irq.project" Active="No"/>
-  <Project Name="flipflop_irq_ack" Path="flipflop_irq_ack/flipflop_irq_ack.project" Active="Yes"/>
+  <Project Name="flipflop_irq" Path="flipflop_irq/flipflop_irq.project" Active="Yes"/>
+  <Project Name="flipflop_irq_ack" Path="flipflop_irq_ack/flipflop_irq_ack.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>

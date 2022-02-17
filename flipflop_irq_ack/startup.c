@@ -61,9 +61,12 @@ void irq_handler(void){
 	}
 	else if(*GPIO_E_IDR_LOW & 0x4){
 		*GPIO_E_IDR_LOW |= (1<<6);
+		
+		*GPIO_D_MODER = 0x00000000;
 		if(*GPIO_D_ODR_LOW){
 			*GPIO_D_ODR_LOW = 0;
 		}
+		*GPIO_D_MODER = 0x00005555;
 	}
 	else{
 		*GPIO_D_ODR_LOW = 0xFF;
@@ -90,5 +93,6 @@ void main(void){
 	int bit;
 	while(1){
 		*GPIO_D_ODR_LOW = count; 
+		
 	}
 }
